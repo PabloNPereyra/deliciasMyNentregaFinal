@@ -1,0 +1,35 @@
+.carrousel__title{
+    font-family: 'Courgette', cursive;
+    font-size: 1em;
+    font-weight: 100;
+    margin: 30px;
+    display: inline-block;
+    position: relative;
+    color:$rose;
+}
+
+.carrousel__title::after,.carrousel__title::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    background-color: currentColor;
+    top: 0.7em;
+}
+
+.carrousel__title::before{
+    left: -35px;
+}
+
+.carrousel__title::after{
+    right: -35px;
+}
+.container-carrousel{
+    display: flex;
+    justify-content: center;
+}
+
+.carrousel{
+    width: 85%;
+    height: auto;
+}

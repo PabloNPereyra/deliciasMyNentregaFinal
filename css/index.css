@@ -1,0 +1,171 @@
+/* Estilos principales */
+.group--color .container {
+  background-color: rgb(245, 208, 245);
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+.main__title {
+  margin: 15px 0;
+  font-size: 1.5em;
+}
+
+.column__title {
+  font-size: 1.8em;
+}
+
+.main__txt {
+  padding: 20px;
+}
+
+.main__abaout__description .column:nth-child(2) {
+  padding: 10px;
+}
+
+.main__receta__semana .column:nth-child(2) {
+  padding: 30px;
+}
+
+.group__title {
+  text-align: center;
+  font-weight: 100;
+  font-size: 1.8em;
+  font-weight: none;
+  margin: 25px;
+}
+
+.destacados-semana .column {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.destacados-semana__img {
+  margin: auto;
+  max-width: 350px;
+}
+
+.destacados-semana__title {
+  font-size: 1.4em;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.destacados-semana__precio {
+  font-size: 1.5em;
+  color: rgb(231, 55, 231);
+  font-weight: bold;
+}
+
+/* Estilos del header */
+.main-header {
+  width: 100%;
+}
+
+.logo {
+  width: 35%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.main-header__contactInfo__phone {
+  background-color: rgb(245, 208, 245);
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.main-header__contactInfo__address {
+  padding: 10px;
+  margin: 0;
+}
+
+.main-header [class*=icon-]::before {
+  position: relative;
+  top: 2px;
+  right: 5px;
+}
+
+/* Estilos del menu y nav */
+.main-nav {
+  width: 100%;
+  position: relative;
+  z-index: 2000;
+  padding: 10px;
+}
+
+.icon-menu {
+  display: block;
+  color: white;
+  border: 1px solid white;
+  border-radius: 1px;
+  width: 30px;
+  height: 30px;
+  line-height: 32px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-icon [class*=icon-] {
+  color: black;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+  width: 35px;
+  height: 35px;
+  background: white;
+  border-radius: 50%;
+}
+
+.social-icon__link {
+  text-decoration: none;
+}
+
+.main-nav {
+  background-color: aqua;
+  width: 100%;
+  position: relative;
+  z-index: 2000;
+  padding: 10px;
+}
+
+.menu {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s linear;
+}
+.menu .menu__item {
+  background-color: #f9c1d2;
+}
+.menu .menu__item .menu__link {
+  display: block;
+  padding: 15px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.menu .menu__item .menu__link .menu__link:hover {
+  background: rgb(176, 176, 176);
+}
+.menu .menu__item .menu__link .menu__link--select {
+  background: rgb(112, 35, 58);
+}
+
+.mostrar {
+  height: 270px;
+}/*# sourceMappingURL=index.css.map */

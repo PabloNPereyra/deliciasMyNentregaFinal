@@ -1,0 +1,110 @@
+/* Estilos de "NOSOTROS" */
+
+.container .main__tittle{
+    font-size: 2em;
+    color:rgb(231, 55, 231);
+}
+
+.banner__content{
+    color: white;
+}
+
+.group .group__title{
+    font-size: 2.6em;
+}
+
+.our-team{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.our-team .container--flex{
+    align-items: flex-start;
+
+}
+
+.our-team__title1 {
+    color:  rgb(231, 55, 231);
+    font-weight: bold;
+    font-size: 2.1em;
+    margin-bottom: 10px;
+}
+
+.our-team__title2 {
+    color: rgb(2, 99, 179);
+    font-weight: bold;
+    font-size: 2.1em;
+    margin-bottom: 10px;
+}
+
+.our-team__img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.our-team__txt{
+    padding: 10px;
+    font-size: 2em;
+}
+
+@media screen and (min-width:480px){
+    .our-team__img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .our-team__title{
+        font-size: 3em;
+    }
+
+    .our-team__txt{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width:768px){
+
+    .group__title{
+    font-size: 3em;
+    }
+
+    .our-team__img{
+        width: 220px;
+        height: 220px;
+    }
+
+    .our-team__title1 {
+        color:  $rose;
+        font-weight: bold;
+        font-size: 2.7em;
+        margin-bottom: 10px;
+    }
+
+    .our-team__title2 {
+        color: rgb(2, 99, 179);
+        font-weight: bold;
+        font-size: 2.7em;
+        margin-bottom: 10px;
+    }
+    .our-team__txt{
+        font-size: 1.7em;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .our-team__img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width:1600px){
+    .our-team__img{
+        width: 420px;
+        height: 420px;
+    }
+}
